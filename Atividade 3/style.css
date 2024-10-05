@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body{
+    background-color:  #9c7474;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    
+}
+
+.Agrupamento{
+   
+    border-radius: 8px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #D9A796;
+    width: 300px;
+    box-shadow: #59312843 4px 6px;
+}
+
+input{
+    width: 170px;
+    height: 24px;
+    margin-inline: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #593128;
+    color: rgb(255, 255, 255);
+    border: none;
+    height: 25px;
+    width: 80px;
+}
+
+#Resultado>h4{
+text-align: center;
+}
+
+#Resultado {
+    margin-top: 10px;
+    text-align: justify;
+    display: none; 
+}
