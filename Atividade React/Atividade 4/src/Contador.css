@@ -46,3 +46,31 @@ button{
     border-color: #6d452d34;
 
 }
+
+button:hover{
+
+    cursor: pointer;
+    width: 80px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #845234;
+    color: white;
+    border-radius: 4px;
+    box-shadow: #82786db2 0px 5px 5px;
+    border-color: #6d452d34;
+
+}
+
+button:active{
+
+    cursor: pointer;
+    width: 80px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #845234;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    box-shadow: #82786db2 0px 5px 5px;
+    border-color: #6d452d34;
+
+}
