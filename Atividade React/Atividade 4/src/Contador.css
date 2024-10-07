@@ -1,0 +1,48 @@
+
+.Trás{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Painel{
+
+width: 90px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+flex-direction: column;
+background-color: #bbac9c;
+padding: 30px;
+border-radius: 4px;
+box-shadow: #82786d7a 5px 5px 5px;
+border-color: #675f5632;
+border-style: solid;
+
+}
+
+.Contador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 80px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    }
+
+button{
+
+    cursor: pointer;
+    width: 80px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #A66641;
+    color: white;
+    border-radius: 4px;
+    box-shadow: #82786db2 0px 5px 5px;
+    border-color: #6d452d34;
+
+}
