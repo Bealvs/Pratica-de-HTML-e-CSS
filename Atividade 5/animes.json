@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Jujutsu Kaisen",
+    "genre": "Shōnen, Ação",
+    "studio": "MAPPA"
+  },
+  {
+    "id": 2,
+    "name": "Tokyo Revengers",
+    "genre": "Shōnen",
+    "studio": "Liden Films"
+  },
+  {
+    "id": 3,
+    "name": "Demon Slayer (Kimetsu no Yaiba)",
+    "genre": "Shōnen",
+    "studio": "Ufotable"
+  },
+  {
+    "id": 4,
+    "name": "Attack on Titan (Shingeki no Kyojin)",
+    "genre": "Shōnen, Seinen",
+    "studio": "Wit"
+  },
+  {
+    "id": 5,
+    "name": "Naruto Shippuden",
+    "genre": "Shōnen",
+    "studio": "Pierrot"
+  },
+  {
+    "id": 6,
+    "name": "Fullmetal Alchemist",
+    "genre": "Shonen",
+    "studio": "Bones"
+  },
+  {
+    "id": 7,
+    "name": "Fullmetal Alchemist",
+    "genre": "Shonen",
+    "studio": "Bones"
+  }
+]
