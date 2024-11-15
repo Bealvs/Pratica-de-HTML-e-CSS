@@ -18,7 +18,7 @@ export default class AnimeRepo {
 
     deleta(id) {
         const animeIndex = animes.findIndex(desenho => desenho.id === id)
-        if (animeIndex) {
+        if (animeIndex!==-1) {
             animes.splice(animeIndex,1)
             reescreverLista()
             return true;

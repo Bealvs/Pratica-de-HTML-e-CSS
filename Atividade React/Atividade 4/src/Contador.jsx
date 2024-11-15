@@ -9,11 +9,14 @@ export function Contador() {
     let valor = Cont
 
     useEffect(()=>{
-        if(Contando==true){
-        setTimeout(()=>setCont(Cont+1),1000)}
-        
+        if(Contando!==true){
+        return;
+    }
+    const tempo = setTimeout(()=>setCont(Cont+1),1000)
+    return  ()=>{clearTimeout(tempo)}
     }
     )
+    
 
 function iniciar(){
     setContando(true)
@@ -25,7 +28,7 @@ function parar (){
 
 function zerar (){
     setCont(0)
-
+    setContando(false)
 }
     return (
       <>

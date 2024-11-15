@@ -1,7 +1,6 @@
 import express from "express"
 import animesServic from "../services/animes-services.js"
 
-
 const router = express.Router()
 const animesService = new animesServic ()
 
@@ -13,9 +12,8 @@ router.get("/animes/:id", (req,res)=>{
    if (sucess!==false){
    return res.status(200).send(sucess)
    }
-return res.status(404)
+   return res.status(404).send({error:"O anime não foi encontrado!"})
 })
-
 
 
 router.post("/animes",(req,res)=>{
@@ -47,7 +45,6 @@ router.post("/animes",(req,res)=>{
 
     return res.status(404).json({ error: "O anime não foi achado!" })}
 )
-
 
 
  router.delete("/animes/:id",(req,res)=>{
